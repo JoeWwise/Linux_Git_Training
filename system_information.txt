@@ -1,0 +1,26 @@
+OS Version
+cat /etc/os-release
+
+Kernel version
+uname -r
+
+CPU Information
+lscpu
+
+Memory usage
+free -h
+
+Disk usage
+df -h
+
+Uptime
+uptime
+
+Logged-in users
+who
+
+Hostname
+hostname
+
+IP addresses
+ip addr
