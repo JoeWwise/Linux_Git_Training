@@ -1,23 +1,32 @@
 OS Version
 cat /etc/os-release
+# cat shows the content of a file/ concatenate file content
+# etc is a directory that contains systems configuration files
 
 Kernel version
 uname -r
+# uname is Unix Name. It's used to display information about Linux.
+# -r which is release displays kernel vision.
 
 CPU Information
 lscpu
 
 Memory usage
 free -h
+# free show information about the system's RAM
+# -h meaning human readable
 
 Disk usage
 df -h
+# df means Disk Free shows the amount of disk/storage space available.
 
 Uptime
 uptime
 
 Logged-in users
 who
+# who shows the current user logged in the system.
+# whoami shows the username of the account you're currently using.
 
 Hostname
 hostname
