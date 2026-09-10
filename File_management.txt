@@ -1,0 +1,45 @@
+mkdir training
+
+cd training
+
+mkdir data logs
+
+cd logs
+
+mkdir nimi
+
+cd nimi
+touch now.txt
+
+cd ..
+cd ..
+cd training
+mkdir scripts backup
+
+Directory Structure Created
+
+5 empty CSV files
+touch file1.csv file2.csv file3.csv file4.csv file5.csv
+
+Copy all five CSV files to backup
+finding difficulty
+
+Move one CSV file from data/ to into logs/
+mv file1.csv logs
+
+Delete two CSV files from data/
+rm file2.csv
+rm file3.csv
+
+Rename one of the remaining CSV files
+mv file5.csv file997.csv
+
+List the contents of data/, logs/, backup
+ls data
+file997.csv file5.csv
+
+ls logs
+nimi
+
+ls backup
+
