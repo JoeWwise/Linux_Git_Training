@@ -1,0 +1,20 @@
+Create ~/training/scripts/backup.sh 
+
+Tasks:
+Make the file executable
+chmod +x /Linux_Training_Exercise/scripts/backup.sh
+
+Display its permisiion
+ls -l /Linux_Training_Exercise/scripts/backup.sh
+
+Change permissions so the owner can read, write and execute; the grouo can read and execute; and others can only read
+chmod 576 /Linux_Training_Exercise/scripts/backup.sh
+
+Verify the permissions
+ls -l  /Linux_Training_Exercise/scripts/backup.sh
+
+Explain -rwxr-xr--
+- = regular file
+rwx = owner can read, write and execute
+r-x = group can read and execute
+r-- = others can only read
