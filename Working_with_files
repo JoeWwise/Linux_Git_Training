@@ -1,0 +1,29 @@
+Inside ~/training/data/, create:
+server1.log
+server2.log
+server3.log
+
+Tasks:
+Add at least three lines of text to server1.log 
+
+vim server1.log
+
+Display the contents of the file
+cat /Linux_Training_Exercise/data/server1.log
+
+Display only the first two lines
+In displaying of first lines the command used is "head -n"
+head -n 2 /Linux_Training_Exercise/data/server1.log
+
+Display only the last two lines
+tail -n 2 /Linux_Training_Exercise/data/server1.log
+
+Count the number of lines in the file
+wc -l /Linux_Training_Exercise/data/server1.log
+
+Search for a particular word in the file
+use grep command for the search syntax
+grep "server" /Linux_Training_Exercise/data/server1.log
+
+Display the file with line numbers
+cat -n /Linux_Training_Exercise/data/server1.log
